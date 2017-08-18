@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-10 00:49+0200\n"
-"PO-Revision-Date: 2017-05-27 10:29+0200\n"
-"Last-Translator: Julien Palard <julien@palard.fr>\n"
+"PO-Revision-Date: 2017-08-18 14:28+0200\n"
+"Last-Translator: Gregoire Cutzach\n"
 "Language-Team: \n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.11\n"
+"X-Generator: Poedit 1.8.7.1\n"
 
 #: ../Doc/install/index.rst:7
 msgid "Installing Python Modules (Legacy version)"
@@ -23,7 +23,7 @@ msgstr "installation des modules python (Version historique)"
 
 #: ../Doc/install/index.rst:0
 msgid "Author"
-msgstr ""
+msgstr "auteur"
 
 #: ../Doc/install/index.rst:9
 msgid "Greg Ward"
@@ -35,7 +35,7 @@ msgstr ":ref:`installing-index`"
 
 #: ../Doc/install/index.rst:16
 msgid "The up to date module installation documentations"
-msgstr ""
+msgstr "La documentation à jour de l'intallation des modules"
 
 #: ../Doc/install/index.rst:28
 msgid ""
@@ -57,6 +57,12 @@ msgid ""
 "recommendations section <https://packaging.python.org/en/latest/current/>`__ "
 "in the Python Packaging User Guide for more information."
 msgstr ""
+"Ce guide couvre les outils de base pour coustruire et distribuer des "
+"extensions fournies comme faisant partie de cette version de Python. Les "
+"outils tiers offrent  des alternatives faciles à utiliser et plus sûres. "
+"Pour plus d'informations référez vous à la `section des recommandations "
+"rapides/*quick recommendations section* <https://packaging.python.org/en/"
+"latest/current/>`__ dans le *Python Packaging User Guide*."
 
 #: ../Doc/install/index.rst:47
 msgid "Introduction"
@@ -205,6 +211,8 @@ msgid ""
 "For Windows, this command should be run from a command prompt window (:"
 "menuselection:`Start --> Accessories`)::"
 msgstr ""
+"Pour Windows, cette commande doit être lancée depuis l'interpréteur de "
+"commandes (:menuselection:`Démarrer --> Accessoires`) : ::"
 
 #: ../Doc/install/index.rst:121
 msgid ""
@@ -1015,7 +1023,7 @@ msgstr ""
 
 #: ../Doc/install/index.rst:521
 msgid ":file:`{prefix}\\\\Scripts`"
-msgstr ""
+msgstr ":file:`{prefix}\\\\Scripts`"
 
 #: ../Doc/install/index.rst:523
 msgid ":file:`{prefix}\\\\Include\\\\{distname}`"
@@ -1023,7 +1031,7 @@ msgstr ":file:`{prefix}\\\\Include\\\\{distname}`"
 
 #: ../Doc/install/index.rst:530
 msgid "Custom Installation"
-msgstr ""
+msgstr "Installation Personnalisée"
 
 #: ../Doc/install/index.rst:532
 msgid ""
@@ -1043,35 +1051,35 @@ msgstr ""
 
 #: ../Doc/install/index.rst:543
 msgid "Override option"
-msgstr ""
+msgstr "Option de substitution"
 
 #: ../Doc/install/index.rst:545
 msgid "``--install-purelib``"
-msgstr ""
+msgstr "``--install-purelib``"
 
 #: ../Doc/install/index.rst:546
 msgid "``--install-platlib``"
-msgstr ""
+msgstr "``--install-platlib``"
 
 #: ../Doc/install/index.rst:547
 msgid "all modules"
-msgstr ""
+msgstr "Tous les modules"
 
 #: ../Doc/install/index.rst:547
 msgid "``--install-lib``"
-msgstr ""
+msgstr "``--install-lib``"
 
 #: ../Doc/install/index.rst:548
 msgid "``--install-scripts``"
-msgstr ""
+msgstr "``--install-scripts``"
 
 #: ../Doc/install/index.rst:549
 msgid "``--install-data``"
-msgstr ""
+msgstr "``--install-data``"
 
 #: ../Doc/install/index.rst:550
 msgid "``--install-headers``"
-msgstr ""
+msgstr "``--install-headers``"
 
 #: ../Doc/install/index.rst:553
 msgid ""
@@ -1196,7 +1204,7 @@ msgstr ""
 
 #: ../Doc/install/index.rst:676
 msgid "Modifying Python's Search Path"
-msgstr ""
+msgstr "Modifier le chemin de recherche de Python"
 
 #: ../Doc/install/index.rst:678
 msgid ""
@@ -1285,7 +1293,7 @@ msgstr ""
 
 #: ../Doc/install/index.rst:751
 msgid "Distutils Configuration Files"
-msgstr ""
+msgstr "Fichiers de configuration de Distutils"
 
 #: ../Doc/install/index.rst:753
 msgid ""
@@ -1301,7 +1309,7 @@ msgstr ""
 
 #: ../Doc/install/index.rst:766
 msgid "Location and names of config files"
-msgstr ""
+msgstr "Emplacement et noms des fichiers de configuration"
 
 #: ../Doc/install/index.rst:768
 msgid ""
@@ -1312,31 +1320,31 @@ msgstr ""
 
 #: ../Doc/install/index.rst:773 ../Doc/install/index.rst:785
 msgid "Location and filename"
-msgstr ""
+msgstr "Emplacement et nom de fichier"
 
 #: ../Doc/install/index.rst:775 ../Doc/install/index.rst:787
 msgid "system"
-msgstr ""
+msgstr "système"
 
 #: ../Doc/install/index.rst:775
 msgid ":file:`{prefix}/lib/python{ver}/distutils/distutils.cfg`"
-msgstr ""
+msgstr ":file:`{prefix}/lib/python{ver}/distutils/distutils.cfg`"
 
 #: ../Doc/install/index.rst:777 ../Doc/install/index.rst:789
 msgid "personal"
-msgstr ""
+msgstr "personnel"
 
 #: ../Doc/install/index.rst:777
 msgid ":file:`$HOME/.pydistutils.cfg`"
-msgstr ""
+msgstr ":file:`$HOME/.pydistutils.cfg`"
 
 #: ../Doc/install/index.rst:779 ../Doc/install/index.rst:791
 msgid "local"
-msgstr ""
+msgstr "local"
 
 #: ../Doc/install/index.rst:779 ../Doc/install/index.rst:791
 msgid ":file:`setup.cfg`"
-msgstr ""
+msgstr ":file:`setup.cfg`"
 
 #: ../Doc/install/index.rst:779 ../Doc/install/index.rst:791
 msgid "\\(3)"
@@ -1344,11 +1352,11 @@ msgstr "\\(3)"
 
 #: ../Doc/install/index.rst:782
 msgid "And on Windows, the configuration files are:"
-msgstr ""
+msgstr "Et sur Windows, les fichiers de configuration sont :"
 
 #: ../Doc/install/index.rst:787
 msgid ":file:`{prefix}\\\\Lib\\\\distutils\\\\distutils.cfg`"
-msgstr ""
+msgstr ":file:`{prefix}\\\\Lib\\\\distutils\\\\distutils.cfg`"
 
 #: ../Doc/install/index.rst:787
 msgid "\\(4)"
@@ -1356,7 +1364,7 @@ msgstr "\\(4)"
 
 #: ../Doc/install/index.rst:789
 msgid ":file:`%HOME%\\\\pydistutils.cfg`"
-msgstr ""
+msgstr ":file:`%HOME%\\\\pydistutils.cfg`"
 
 #: ../Doc/install/index.rst:789
 msgid "\\(5)"
@@ -1412,7 +1420,7 @@ msgstr ""
 
 #: ../Doc/install/index.rst:834
 msgid "Syntax of config files"
-msgstr ""
+msgstr "Syntaxe des fichiers de configuration"
 
 #: ../Doc/install/index.rst:836
 msgid ""
@@ -1596,7 +1604,7 @@ msgstr ""
 
 #: ../Doc/install/index.rst:978
 msgid "Borland/CodeGear C++"
-msgstr ""
+msgstr "Borland/CodeGear C++"
 
 #: ../Doc/install/index.rst:980
 msgid ""
@@ -1669,7 +1677,7 @@ msgstr ""
 
 #: ../Doc/install/index.rst:1030
 msgid "GNU C / Cygwin / MinGW"
-msgstr ""
+msgstr "GNU C / Cygwin / MinGW"
 
 #: ../Doc/install/index.rst:1032
 msgid ""
@@ -1703,7 +1711,7 @@ msgstr ""
 
 #: ../Doc/install/index.rst:1054
 msgid "Older Versions of Python and MinGW"
-msgstr ""
+msgstr "Anciennes versions de Python et MinGW"
 
 #: ../Doc/install/index.rst:1055
 msgid ""
@@ -1775,6 +1783,8 @@ msgid ""
 "Check https://www.sourceware.org/cygwin/ and http://www.mingw.org/ for more "
 "information"
 msgstr ""
+"Consultez https://www.sourceware.org/cygwin/ et http://www.mingw.org/ pour "
+"plus d'informations"
 
 #: ../Doc/install/index.rst:1104
 msgid ""
