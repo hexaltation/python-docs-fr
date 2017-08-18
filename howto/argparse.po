@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-10 00:49+0200\n"
-"PO-Revision-Date: 2017-08-10 14:06+0200\n"
+"PO-Revision-Date: 2017-08-18 12:33+0200\n"
 "Last-Translator: Hugo Ludmann <ludmann.h@gmail.com>\n"
 "Language-Team: \n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.2\n"
+"X-Generator: Poedit 1.8.7.1\n"
 
 #: ../Doc/howto/argparse.rst:3
 msgid "Argparse Tutorial"
@@ -23,7 +23,7 @@ msgstr "Tutoriel Argparse"
 
 #: ../Doc/howto/argparse.rst:0
 msgid "author"
-msgstr ""
+msgstr "auteur"
 
 #: ../Doc/howto/argparse.rst:5
 msgid "Tshepang Lekhonkhobe"
@@ -380,17 +380,19 @@ msgstr "Et voilà le résultat :"
 
 #: ../Doc/howto/argparse.rst:374
 msgid "We've brought back a positional argument, hence the complaint."
-msgstr ""
+msgstr "Nous avons donné un argument positionnel, d'où la plainte."
 
 #: ../Doc/howto/argparse.rst:376
 msgid "Note that the order does not matter."
-msgstr ""
+msgstr "Notez que l'ordre ne compte pas."
 
 #: ../Doc/howto/argparse.rst:378
 msgid ""
 "How about we give this program of ours back the ability to have multiple "
 "verbosity values, and actually get to use them::"
 msgstr ""
+"Et si nous donnions à notre programme la possibilité d'avoir plusieures "
+"valeurs de verbosité, et de plus nous les utilisions : ::"
 
 #: ../Doc/howto/argparse.rst:412
 msgid ""
@@ -398,12 +400,17 @@ msgid ""
 "Let's fix it by restricting the values the ``--verbosity`` option can "
 "accept::"
 msgstr ""
+"Tout cela semble bon à l'exception de la fin qui montre qu'il y a un bogue "
+"dans notre programme. Corrigeons le en restraignant les valeurs que l'option "
+"``--verbosity`` peut accepter : ::"
 
 #: ../Doc/howto/argparse.rst:448
 msgid ""
 "Note that the change also reflects both in the error message as well as the "
 "help string."
 msgstr ""
+"Notez que le changement se voit aussi bien dans le message d'erreur que dans "
+"la phrase d'aide."
 
 #: ../Doc/howto/argparse.rst:451
 msgid ""
@@ -411,40 +418,55 @@ msgid ""
 "pretty common. It also matches the way the CPython executable handles its "
 "own verbosity argument (check the output of ``python --help``)::"
 msgstr ""
+"Maintenant, jouons avec une approche différente de la verbosité qui est "
+"plutôt commune. Cela correspond aussi à la manière dont l'executable de "
+"CPython gère son propre argument de verbosité (vérifier la sortie de "
+"``python -help``): ::"
 
 #: ../Doc/howto/argparse.rst:470
 msgid ""
 "We have introduced another action, \"count\", to count the number of "
 "occurrences of a specific optional arguments:"
 msgstr ""
+"Nous avons ajouté une autre action, \"count\", pour compter le nombre "
+"d'occurences d'un argument optionnel donné :"
 
 #: ../Doc/howto/argparse.rst:498
 msgid ""
 "Yes, it's now more of a flag (similar to ``action=\"store_true\"``) in the "
 "previous version of our script. That should explain the complaint."
 msgstr ""
+"Oui, c'est maintenant plus une option (similaire à ``action=\"store_true\"`` "
+"dans la version précédente de notre script). Ce qui peut expliquer la "
+"plainte."
 
 #: ../Doc/howto/argparse.rst:501
 msgid "It also behaves similar to \"store_true\" action."
-msgstr ""
+msgstr "Il se comporte aussi comme l'action \"store_true\"."
 
 #: ../Doc/howto/argparse.rst:503
 msgid ""
 "Now here's a demonstration of what the \"count\" action gives. You've "
 "probably seen this sort of usage before."
 msgstr ""
+"Maintenant voici une demonstration de ce que l'action \"count\" donne. Vous "
+"avez probablement déjà croisé ce type d'utilisation."
 
 #: ../Doc/howto/argparse.rst:506
 msgid ""
 "And if you don't specify the ``-v`` flag, that flag is considered to have "
 "``None`` value."
 msgstr ""
+"Et si vous ne spécifiez pas l'option ``-v``, cette option sera considérée "
+"comme ayant la valeur ``None``."
 
 #: ../Doc/howto/argparse.rst:509
 msgid ""
 "As should be expected, specifying the long form of the flag, we should get "
 "the same output."
 msgstr ""
+"Comme attendu, en spécifiant la forme longue de l'option, nous obtenons la "
+"même sortie."
 
 #: ../Doc/howto/argparse.rst:512
 msgid ""
@@ -452,32 +474,39 @@ msgid ""
 "has acquired, but that can always be fixed by improving the documentation "
 "for our script (e.g. via the ``help`` keyword argument)."
 msgstr ""
+"Malheureusement, notre sortie d'aide ne donne pas beaucoup de renseignements "
+"sur la nouvelle fonctionnnalité de notre script, mais cela peut être corrigé "
+"simplement en amméliorant la docummentation de notre script (p. ex. via "
+"l'argument mot-clé ``help``)."
 
 #: ../Doc/howto/argparse.rst:516
 msgid "That last output exposes a bug in our program."
-msgstr ""
+msgstr "La dernière sortie montre un bogue dans notre programme."
 
 #: ../Doc/howto/argparse.rst:519
 msgid "Let's fix::"
-msgstr ""
+msgstr "Corrigeons cela : ::"
 
 #: ../Doc/howto/argparse.rst:538
 msgid "And this is what it gives:"
-msgstr ""
+msgstr "Et voici ce que cela donne :"
 
 #: ../Doc/howto/argparse.rst:553
 msgid ""
 "First output went well, and fixes the bug we had before. That is, we want "
 "any value >= 2 to be as verbose as possible."
 msgstr ""
+"La première sortie s'est bien déroulée et corrige le bogue croisé "
+"précédement. Nous voulons que n'importe quelle valeur >= 2 soit aussi "
+"verbeuse que possible."
 
 #: ../Doc/howto/argparse.rst:556
 msgid "Third output not so good."
-msgstr ""
+msgstr "La "
 
 #: ../Doc/howto/argparse.rst:558
 msgid "Let's fix that bug::"
-msgstr ""
+msgstr "Corrigeons ce bogue : ::"
 
 #: ../Doc/howto/argparse.rst:575
 msgid ""
@@ -487,10 +516,15 @@ msgid ""
 "value, and that cannot be compared to an int value (hence the :exc:"
 "`TypeError` exception)."
 msgstr ""
+"Nous venons juste d'introduire un nouveau mot-clé, ``default``. Nous l'avons "
+"initialisé à ``0``  dans le but de pouvoir le comparer à d'autres valeurs de "
+"type int. Souvenez-vous que par défaut, si aucun argument optionnel n'est "
+"spécifié, il prend la valeur ``None``, et il ne peut pas être comparé à une "
+"valeur de type int (d'où l'exception :exc:`TypeError`)."
 
 #: ../Doc/howto/argparse.rst:582
 msgid "And:"
-msgstr ""
+msgstr "Et :"
 
 #: ../Doc/howto/argparse.rst:589
 msgid ""
@@ -498,16 +532,22 @@ msgid ""
 "scratched the surface. The :mod:`argparse` module is very powerful, and "
 "we'll explore a bit more of it before we end this tutorial."
 msgstr ""
+"Vous pouvez aller assez loin avec ce que nous avons déjà appris, et nous "
+"n'avons fait qu'effleurer le sujet. Le module :mod:`argparse` est très "
+"puissant, et nous allons l'explorer un peu plus avant de terminer ce "
+"tutoriel."
 
 #: ../Doc/howto/argparse.rst:596
 msgid "Getting a little more advanced"
-msgstr ""
+msgstr "Pour aller un peu plus loin"
 
 #: ../Doc/howto/argparse.rst:598
 msgid ""
 "What if we wanted to expand our tiny program to perform other powers, not "
 "just squares::"
 msgstr ""
+"Et si nous voulions étendre notre petit programme à d'autres puissances, pas "
+"seulement des carrés : ::"
 
 #: ../Doc/howto/argparse.rst:615 ../Doc/howto/argparse.rst:653
 msgid "Output:"
@@ -519,10 +559,13 @@ msgid ""
 "that gets displayed. The following example instead uses verbosity level to "
 "display *more* text instead::"
 msgstr ""
+"Notez que pour l'instant nous avons utilisé le niveau de verbosité pour "
+"*changer* le text affiché. L'exemple suivant utilise le niveau de verbosité "
+"pour afficher *plus* de texte à la place: ::"
 
 #: ../Doc/howto/argparse.rst:667
 msgid "Conflicting options"
-msgstr ""
+msgstr "Options contradictoires"
 
 #: ../Doc/howto/argparse.rst:669
 msgid ""
@@ -533,12 +576,21 @@ msgid ""
 "the new functionality makes more sense: we'll introduce the ``--quiet`` "
 "option, which will be the opposite of the ``--verbose`` one::"
 msgstr ""
+"Jusque là, nous avons travailllé avce deux méthodes d'une instance de :class:"
+"`argparse.ArgumentParser`. En voici une troisième, :meth:"
+"`add_mutually_exclusive_group`. Elle nous permet de spécifier quelle est "
+"option entre en conflit avec quelle autre. Nous allons changer le reste du "
+"programme de telle manière à ce que les nouvelles fonctionnalités aient plus "
+"de sens : introduisons l'option ``-quiet`` qui est l'opposée de ``-"
+"verbose`` : ::"
 
 #: ../Doc/howto/argparse.rst:695
 msgid ""
 "Our program is now simpler, and we've lost some functionality for the sake "
 "of demonstration. Anyways, here's the output:"
 msgstr ""
+"Notre programme est maintenant plus simple, et nous avons sacrifié quelques "
+"fonctionnalités pour la demonstration. Qu'importe, voici la sortie :"
 
 #: ../Doc/howto/argparse.rst:713
 msgid ""
@@ -546,12 +598,18 @@ msgid ""
 "the sort of flexibility you get, i.e. mixing long form options with short "
 "form ones."
 msgstr ""
+"Cela devarit être facile à suivre. J'ai ajouté cette dernière sortie afin "
+"que vous puissiez voir le type de flexibilité obtenue, c'est à dire mixer "
+"les options à formes longues avec celles à formes courtes."
 
 #: ../Doc/howto/argparse.rst:717
 msgid ""
 "Before we conclude, you probably want to tell your users the main purpose of "
 "your program, just in case they don't know::"
 msgstr ""
+"Avant de conclure, vous voulez probablement indiquer à vos utilisateurs "
+"l'objectif principal de votre programme, au cas où ils ne le sauraient "
+"pas : ::"
 
 #: ../Doc/howto/argparse.rst:738
 msgid ""
@@ -559,10 +617,13 @@ msgid ""
 "tells us that we can either use ``-v`` or ``-q``, but not both at the same "
 "time:"
 msgstr ""
+"Notez cette légère différence dans le texte d'usage. Notez ``[-v|-q]``, qui "
+"nous indique que l'on peut utiliser soit ``-v`` soit ``-q``, mais aucunement "
+"les deux en même temps."
 
 #: ../Doc/howto/argparse.rst:760
 msgid "Conclusion"
-msgstr ""
+msgstr "Conclusion"
 
 #: ../Doc/howto/argparse.rst:762
 msgid ""
@@ -570,3 +631,7 @@ msgid ""
 "quite detailed and thorough, and full of examples. Having gone through this "
 "tutorial, you should easily digest them without feeling overwhelmed."
 msgstr ""
+"Le module :mod:`argparse` a beaucoup plus à offrir que ce qui à été montré "
+"ici. Sa documentation est plutôt approfondie, détaillée et pleine "
+"d'exemples. En ayant suivi ce tutoriel, vous devriez facilement les digérer "
+"sans vous sentir submergé."

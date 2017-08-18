@@ -8,18 +8,18 @@ msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-01 13:21+0200\n"
-"PO-Revision-Date: 2017-05-28 17:54+0200\n"
-"Last-Translator: Julien Palard <julien@palard.fr>\n"
+"PO-Revision-Date: 2017-08-18 13:38+0200\n"
+"Last-Translator: Gregoire Cutzach\n"
 "Language-Team: \n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.11\n"
+"X-Generator: Poedit 1.8.7.1\n"
 
 #: ../Doc/faq/installed.rst:3
 msgid "\"Why is Python Installed on my Computer?\" FAQ"
-msgstr ""
+msgstr "\"Pourquoi Python est il installé sur mon ordinateur ?\" FAQ"
 
 #: ../Doc/faq/installed.rst:6
 msgid "What is Python?"
@@ -33,22 +33,32 @@ msgid ""
 "professional software developers at places such as Google, NASA, and "
 "Lucasfilm Ltd."
 msgstr ""
+"Python est un langage de programmation. Il est utilisé par beaucoup "
+"d'applications. Il est utilisé dans certains lycées et universités comme un "
+"langage d'introduction à la programmation car Python est facile à apprendre, "
+"mais il est aussi utilisé par des développeurs professionnels dans "
+"différentes entreprises comme Google, la NASA, ou Lucasfilm Ltd."
 
 #: ../Doc/faq/installed.rst:13
 msgid ""
 "If you wish to learn more about Python, start with the `Beginner's Guide to "
 "Python <https://wiki.python.org/moin/BeginnersGuide>`_."
 msgstr ""
+"Si vous voulez en savoir plus à propos de Python, commencez par le "
+"`Beginner's Guide to Python <https://wiki.python.org/moin/BeginnersGuide>`_."
 
 #: ../Doc/faq/installed.rst:18
 msgid "Why is Python installed on my machine?"
-msgstr ""
+msgstr "Pourquoi Python est-il installé sur ma machine ?"
 
 #: ../Doc/faq/installed.rst:20
 msgid ""
 "If you find Python installed on your system but don't remember installing "
 "it, there are several possible ways it could have gotten there."
 msgstr ""
+"Si vous trouvez Python installé sur votre système mais que vous ne vous "
+"souvenez pas l'avoir installé, il y a plusieurs chemins qui ont pu l'ammener "
+"ici. "
 
 #: ../Doc/faq/installed.rst:23
 msgid ""
@@ -56,6 +66,9 @@ msgid ""
 "installed it; you'll have to figure out who's been using the machine and "
 "might have installed it."
 msgstr ""
+"Peut-être un autre utilasateur sur l'ordinateur veut apprendre à programmer "
+"et l'a installé; il va falloir vous demandé qui a utilisé la machine et peut "
+"l'avoir installé."
 
 #: ../Doc/faq/installed.rst:26
 msgid ""
@@ -64,6 +77,10 @@ msgid ""
 "applications, from GUI programs to network servers and administrative "
 "scripts."
 msgstr ""
+"Une appliaction tierce intallée sur la machine est peut-être écrite en "
+"Python et inclut une installation Python. Il existe beaucoup d'applications "
+"de ce genre allant de programmes d'interfaces-graphiques à serveurs réseaux "
+"ou des scripts d'administration."
 
 #: ../Doc/faq/installed.rst:29
 msgid ""
@@ -71,6 +88,10 @@ msgid ""
 "aware of computers from Hewlett-Packard and Compaq that include Python.  "
 "Apparently some of HP/Compaq's administrative tools are written in Python."
 msgstr ""
+"Certaines machines Windows ont aussi Python d'installé. En écrivant cela "
+"nous pensont aux ordinateurs des marques Hewlette-Packard et Compaq qui "
+"inclus Python. Apparement certains des outils d'administration HP/Compaq "
+"sont écrits en Python."
 
 #: ../Doc/faq/installed.rst:32
 msgid ""
@@ -78,20 +99,26 @@ msgid ""
 "distributions, have Python installed by default; it's included in the base "
 "installation."
 msgstr ""
+"Beaucoup de systèmes d'exploitation compatibles Unix, tels que Mac OS X et "
+"quelques distributions Linux, ont Python installé par défaut. Il est inclu "
+"dans l'intallation de base. "
 
 #: ../Doc/faq/installed.rst:38
 msgid "Can I delete Python?"
-msgstr ""
+msgstr "Puis-je effacer Python ?"
 
 #: ../Doc/faq/installed.rst:40
 msgid "That depends on where Python came from."
-msgstr ""
+msgstr "Cela dépends d'où Python vient."
 
 #: ../Doc/faq/installed.rst:42
 msgid ""
 "If someone installed it deliberately, you can remove it without hurting "
 "anything.  On Windows, use the Add/Remove Programs icon in the Control Panel."
 msgstr ""
+"Si quelqu'un l'a installé délibérément, vous pouvez le supprimer sans rien "
+"détruire. Sur Windows, utilisez l'icone \"Ajout/Suppression de Programmes\" "
+"dans le panneau de configuration."
 
 #: ../Doc/faq/installed.rst:45
 msgid ""
@@ -99,6 +126,9 @@ msgid ""
 "it, but that application will no longer work.  You should use that "
 "application's uninstaller rather than removing Python directly."
 msgstr ""
+"Si Python a été installé par une application tierce, vous pouvez aussi le "
+"supprimer, mais l'application ne fonctionnera plus. Vous devriez utiliser le "
+"désintalleur de l'application plutôt que de supprimer Python directement."
 
 #: ../Doc/faq/installed.rst:49
 msgid ""
@@ -107,3 +137,8 @@ msgid ""
 "and some of them might be important to you.  Reinstalling the whole system "
 "would then be required to fix things again."
 msgstr ""
+"Si Python est livré avec votre système d'exploitation, le supprimer n'est "
+"pas recommandé. Si vous le supprimé, n'importe quel outil écrit en python ne "
+"fonctionnera plus, et certains d'entre eux sont peut-être important pour "
+"vous. La réinstallation complète du sytème sera alors nécéssaire pour "
+"réparer cela."
