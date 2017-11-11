@@ -3,27 +3,27 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-02 22:11+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2017-08-18 21:11+0200\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Gregoire Cutzach\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.7.1\n"
 
 #: ../Doc/faq/programming.rst:5
 msgid "Programming FAQ"
-msgstr ""
+msgstr "FAQ Programmation"
 
 #: ../Doc/faq/programming.rst:12
 msgid "General Questions"
-msgstr ""
+msgstr "Questions Générales"
 
 #: ../Doc/faq/programming.rst:15
 msgid ""
@@ -91,15 +91,15 @@ msgstr ""
 
 #: ../Doc/faq/programming.rst:52
 msgid "Wing IDE (https://wingware.com/)"
-msgstr ""
+msgstr "Wing IDE (https://wingware.com/)"
 
 #: ../Doc/faq/programming.rst:53
 msgid "Komodo IDE (https://komodoide.com/)"
-msgstr ""
+msgstr "Komodo IDE (https://komodoide.com/)"
 
 #: ../Doc/faq/programming.rst:54
 msgid "PyCharm (https://www.jetbrains.com/pycharm/)"
-msgstr ""
+msgstr "PyCharm (https://www.jetbrains.com/pycharm/)"
 
 #: ../Doc/faq/programming.rst:58
 msgid "Is there a tool to help find bugs or perform static analysis?"
@@ -165,7 +165,7 @@ msgstr ""
 
 #: ../Doc/faq/programming.rst:101
 msgid "http://www.py2exe.org/"
-msgstr ""
+msgstr "http://www.py2exe.org/"
 
 #: ../Doc/faq/programming.rst:103
 msgid ""
@@ -200,11 +200,11 @@ msgstr ""
 
 #: ../Doc/faq/programming.rst:123
 msgid "This code:"
-msgstr ""
+msgstr "Ce code :"
 
 #: ../Doc/faq/programming.rst:131
 msgid "works, but this code:"
-msgstr ""
+msgstr "fonctionne, mais ce code :"
 
 #: ../Doc/faq/programming.rst:138
 msgid "results in an UnboundLocalError:"
@@ -328,15 +328,15 @@ msgstr ""
 
 #: ../Doc/faq/programming.rst:263
 msgid "config.py::"
-msgstr ""
+msgstr "config.py : ::"
 
 #: ../Doc/faq/programming.rst:267
 msgid "mod.py::"
-msgstr ""
+msgstr "mod.py : ::"
 
 #: ../Doc/faq/programming.rst:272
 msgid "main.py::"
-msgstr ""
+msgstr "main.py : ::"
 
 #: ../Doc/faq/programming.rst:278
 msgid ""
