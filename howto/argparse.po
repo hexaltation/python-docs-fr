@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-10 00:49+0200\n"
-"PO-Revision-Date: 2017-08-18 12:33+0200\n"
+"POT-Creation-Date: 2017-10-13 22:28+0200\n"
+"PO-Revision-Date: 2018-02-15 00:38+0100\n"
 "Last-Translator: Hugo Ludmann <ludmann.h@gmail.com>\n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../Doc/howto/argparse.rst:3
 msgid "Argparse Tutorial"
-msgstr "Tutoriel Argparse"
+msgstr "Tutoriel *argparse*"
 
 #: ../Doc/howto/argparse.rst:0
 msgid "author"
@@ -71,8 +71,8 @@ msgid ""
 "The :command:`ls` command is useful when run without any options at all. It "
 "defaults to displaying the contents of the current directory."
 msgstr ""
-"La commande :command:`ls` est utile quand elle est exécutée sans aucune "
-"option. Par défaut cela affiche le contenu du dossier courant."
+"La commande :command:`ls` est utile quand elle est exécutée sans aucun "
+"paramètre. Par défaut cela affiche le contenu du dossier courant."
 
 #: ../Doc/howto/argparse.rst:51
 msgid ""
@@ -102,7 +102,7 @@ msgid ""
 msgstr ""
 "Maintenant, supposons que l'on veut changer la façon dont le programme agit. "
 "Dans notre exemple, on affiche plus d'information pour chaque ficher que "
-"simplement leur nom. Dans ce cas, ``-l`` est un argument optionnel."
+"simplement leur nom. Dans ce cas, ``-l`` est un argument facultatif."
 
 #: ../Doc/howto/argparse.rst:64
 msgid ""
@@ -138,8 +138,8 @@ msgid ""
 "Running the script without any options results in nothing displayed to "
 "stdout. Not so useful."
 msgstr ""
-"Exécuter le script sans aucune option à pour effet que rien est affiché sur "
-"stdout. Ce n'est pas très utile."
+"Exécuter le script sans aucun paramètre à pour effet que rien est affiché "
+"sur la sortie d'erreur. Ce n'est pas très utile."
 
 #: ../Doc/howto/argparse.rst:100
 msgid ""
@@ -184,13 +184,13 @@ msgid ""
 "I've named it ``echo`` so that it's in line with its function."
 msgstr ""
 "On a ajouté la méthode :meth:`add_argument` que l'on utilise pour préciser "
-"quelles options de lignes de commandes le programme  peut accepter. Dans le "
+"quels paramètre de lignes de commandes le programme peut accepter. Dans le "
 "cas présent, je l'ai appelé ``echo`` pour que cela corresponde à sa fonction."
 
 #: ../Doc/howto/argparse.rst:144
 msgid "Calling our program now requires us to specify an option."
 msgstr ""
-"Utiliser le programme nécessite maintenant que l'on précise une option."
+"Utiliser le programme nécessite maintenant que l'on précise un paramètre."
 
 #: ../Doc/howto/argparse.rst:146
 msgid ""
@@ -198,7 +198,7 @@ msgid ""
 "specified, in this case, ``echo``."
 msgstr ""
 "La méthode :meth:`parse_args` renvoie en réalité certaines données des "
-"options précisées, dans le cas présent : ``echo``."
+"paramètres précisées, dans le cas présent : ``echo``."
 
 #: ../Doc/howto/argparse.rst:149
 msgid ""
@@ -243,8 +243,8 @@ msgid ""
 "`argparse` to treat that input as an integer::"
 msgstr ""
 "Cela n'a pas très bien fonctionné. C'est parce que :mod:`argparse` traite "
-"les options que l'on donnes comme des chaînes de caractères à moins qu'on ne "
-"lui indique de faire autrement. Donc, disons à :mod:`argparse` de traiter "
+"les paramètres que l'on donne comme des chaînes de caractères à moins qu'on "
+"ne lui indique de faire autrement. Donc, disons à :mod:`argparse` de traiter "
 "cette entrée comme un entier : ::"
 
 #: ../Doc/howto/argparse.rst:217
@@ -278,7 +278,7 @@ msgid ""
 "specified and display nothing when not."
 msgstr ""
 "Le programme est écrit de sorte qu'il n'affiche rien sauf si l'option ``--"
-"verbosity`` est présicée."
+"verbosity`` est précisée."
 
 #: ../Doc/howto/argparse.rst:257
 msgid ""
@@ -325,20 +325,20 @@ msgid ""
 "This means that, if the option is specified, assign the value ``True`` to :"
 "data:`args.verbose`. Not specifying it implies ``False``."
 msgstr ""
-"Maintenant l'option est plus un flag (ou drapeau) que quelque chose qui "
-"nécessite une valeur. On a même changé le nom de l'option pour qu'elle "
-"corresponde à cette idée. Notez que maintenant on précise une nouvelle "
-"``action`` clavier et qu'on lui donne la valeur ``\"store_true\"``. Cela "
-"signifie que si l'option est précisée la valeur ``True`` est assignée à :"
-"data:`args.verbose`. Ne rien préciser implique la valeur ``False``."
+"Maintenant le paramètre est plus une option que quelque chose qui nécessite "
+"une valeur. On a même changé le nom du paramètre pour qu'il corresponde à "
+"cette idée. Notez que maintenant on précise une nouvelle ``action`` clavier "
+"et qu'on lui donne la valeur ``\"store_true\"``. Cela signifie que si "
+"l'option est précisée la valeur ``True`` est assignée à :data:`args."
+"verbose`. Ne rien préciser implique la valeur ``False``."
 
 #: ../Doc/howto/argparse.rst:305
 msgid ""
 "It complains when you specify a value, in true spirit of what flags actually "
 "are."
 msgstr ""
-"Dans l'esprit de ce que sont vraiment les flags (ou drapeaux), il se plaint "
-"quand vous tentez de préciser une valeur."
+"Dans l'esprit de ce que sont vraiment les options, pas des paramètres, il se "
+"plaint quand vous tentez de préciser une valeur."
 
 #: ../Doc/howto/argparse.rst:308
 msgid "Notice the different help text."
@@ -346,7 +346,7 @@ msgstr "Notez que l'aide est différente."
 
 #: ../Doc/howto/argparse.rst:312
 msgid "Short options"
-msgstr "Les options raccourcies"
+msgstr "Les paramètres raccourcis"
 
 #: ../Doc/howto/argparse.rst:314
 msgid ""
@@ -356,7 +356,7 @@ msgid ""
 msgstr ""
 "Si vous êtes familier avec l'utilisation des ligne de commande vous avez dû "
 "remarqué que je n'ai pour l'instant rien dit au sujet des versions "
-"raccourcies des options. C'est très simple : ::"
+"raccourcies des paramètres. C'est très simple : ::"
 
 #: ../Doc/howto/argparse.rst:326
 msgid "And here goes:"
@@ -380,19 +380,32 @@ msgstr "Et voilà le résultat :"
 
 #: ../Doc/howto/argparse.rst:374
 msgid "We've brought back a positional argument, hence the complaint."
+<<<<<<< HEAD
 msgstr "Nous avons donné un argument positionnel, d'où la plainte."
 
 #: ../Doc/howto/argparse.rst:376
 msgid "Note that the order does not matter."
 msgstr "Notez que l'ordre ne compte pas."
+=======
+msgstr "Nous avons ajouté un argument nommé, d'où le message d'erreur."
+
+#: ../Doc/howto/argparse.rst:376
+msgid "Note that the order does not matter."
+msgstr "Notez que l'ordre importe peu."
+>>>>>>> 739c3a9136f05dfc71dc1513b13628821d3f0ce6
 
 #: ../Doc/howto/argparse.rst:378
 msgid ""
 "How about we give this program of ours back the ability to have multiple "
 "verbosity values, and actually get to use them::"
 msgstr ""
+<<<<<<< HEAD
 "Et si nous donnions à notre programme la possibilité d'avoir plusieures "
 "valeurs de verbosité, et de plus nous les utilisions : ::"
+=======
+"Qu'en est il si nous donnons à ce programme la possibilité d'avoir plusieurs "
+"niveaux de verbosité, et que celui-ci les prend en compte : ::"
+>>>>>>> 739c3a9136f05dfc71dc1513b13628821d3f0ce6
 
 #: ../Doc/howto/argparse.rst:412
 msgid ""
@@ -400,17 +413,28 @@ msgid ""
 "Let's fix it by restricting the values the ``--verbosity`` option can "
 "accept::"
 msgstr ""
+<<<<<<< HEAD
 "Tout cela semble bon à l'exception de la fin qui montre qu'il y a un bogue "
 "dans notre programme. Corrigeons le en restraignant les valeurs que l'option "
 "``--verbosity`` peut accepter : ::"
+=======
+"Tout semble bon sauf le dernier, qui montre que notre programme contient un "
+"bogue. Corrigeons cela en restreignant les valeurs que ``--verbosity`` "
+"accepte : ::"
+>>>>>>> 739c3a9136f05dfc71dc1513b13628821d3f0ce6
 
 #: ../Doc/howto/argparse.rst:448
 msgid ""
 "Note that the change also reflects both in the error message as well as the "
 "help string."
 msgstr ""
+<<<<<<< HEAD
 "Notez que le changement se voit aussi bien dans le message d'erreur que dans "
 "la phrase d'aide."
+=======
+"Notez que ce changement est pris en compte à la fois dans le message "
+"d'erreur et dans le texte d'aide."
+>>>>>>> 739c3a9136f05dfc71dc1513b13628821d3f0ce6
 
 #: ../Doc/howto/argparse.rst:451
 msgid ""
@@ -418,24 +442,37 @@ msgid ""
 "pretty common. It also matches the way the CPython executable handles its "
 "own verbosity argument (check the output of ``python --help``)::"
 msgstr ""
+<<<<<<< HEAD
 "Maintenant, jouons avec une approche différente de la verbosité qui est "
 "plutôt commune. Cela correspond aussi à la manière dont l'executable de "
 "CPython gère son propre argument de verbosité (vérifier la sortie de "
 "``python -help``): ::"
+=======
+"Essayons maintenant une approche différente pour jouer sur la verbosité, ce "
+"qui arrive fréquemment. Cela correspond également à comment le programme "
+"CPython gère ses propres paramètres de verbosité (jetez un œil sur la sortie "
+"de la commande ``python --help``) : ::"
+>>>>>>> 739c3a9136f05dfc71dc1513b13628821d3f0ce6
 
 #: ../Doc/howto/argparse.rst:470
 msgid ""
 "We have introduced another action, \"count\", to count the number of "
 "occurrences of a specific optional arguments:"
 msgstr ""
+<<<<<<< HEAD
 "Nous avons ajouté une autre action, \"count\", pour compter le nombre "
 "d'occurences d'un argument optionnel donné :"
+=======
+"Nous avons introduit une autre action, ``\"count\"``, pour compter le nombre "
+"d’occurrences d'une argument optionnel en particulier :"
+>>>>>>> 739c3a9136f05dfc71dc1513b13628821d3f0ce6
 
 #: ../Doc/howto/argparse.rst:498
 msgid ""
 "Yes, it's now more of a flag (similar to ``action=\"store_true\"``) in the "
 "previous version of our script. That should explain the complaint."
 msgstr ""
+<<<<<<< HEAD
 "Oui, c'est maintenant plus une option (similaire à ``action=\"store_true\"`` "
 "dans la version précédente de notre script). Ce qui peut expliquer la "
 "plainte."
@@ -443,30 +480,54 @@ msgstr ""
 #: ../Doc/howto/argparse.rst:501
 msgid "It also behaves similar to \"store_true\" action."
 msgstr "Il se comporte aussi comme l'action \"store_true\"."
+=======
+"Oui, c'est maintenant d'avantage une option (similaire à ``action="
+"\"store_true\"``) de la version précédente de notre script. Cela devrait "
+"expliquer le message d'erreur."
+
+#: ../Doc/howto/argparse.rst:501
+msgid "It also behaves similar to \"store_true\" action."
+msgstr "Cela se comporte de la même manière que l'action ``\"store_true\"``."
+>>>>>>> 739c3a9136f05dfc71dc1513b13628821d3f0ce6
 
 #: ../Doc/howto/argparse.rst:503
 msgid ""
 "Now here's a demonstration of what the \"count\" action gives. You've "
 "probably seen this sort of usage before."
 msgstr ""
+<<<<<<< HEAD
 "Maintenant voici une demonstration de ce que l'action \"count\" donne. Vous "
 "avez probablement déjà croisé ce type d'utilisation."
+=======
+"Maintenant voici une démonstration de ce que l'action ``\"count\"`` fait. "
+"Vous avez sûrement vu ce genre d'utilisation auparavant."
+>>>>>>> 739c3a9136f05dfc71dc1513b13628821d3f0ce6
 
 #: ../Doc/howto/argparse.rst:506
 msgid ""
 "And if you don't specify the ``-v`` flag, that flag is considered to have "
 "``None`` value."
 msgstr ""
+<<<<<<< HEAD
 "Et si vous ne spécifiez pas l'option ``-v``, cette option sera considérée "
 "comme ayant la valeur ``None``."
+=======
+"Et si vous ne spécifiez pas le option ``-v``, ce option sera considéré en "
+"tant que valeur ``None``."
+>>>>>>> 739c3a9136f05dfc71dc1513b13628821d3f0ce6
 
 #: ../Doc/howto/argparse.rst:509
 msgid ""
 "As should be expected, specifying the long form of the flag, we should get "
 "the same output."
 msgstr ""
+<<<<<<< HEAD
 "Comme attendu, en spécifiant la forme longue de l'option, nous obtenons la "
 "même sortie."
+=======
+"Comme on s'y attend, en spécifiant l'option dans sa forme longue, on devrait "
+"obtenir la même sortie."
+>>>>>>> 739c3a9136f05dfc71dc1513b13628821d3f0ce6
 
 #: ../Doc/howto/argparse.rst:512
 msgid ""
@@ -474,6 +535,7 @@ msgid ""
 "has acquired, but that can always be fixed by improving the documentation "
 "for our script (e.g. via the ``help`` keyword argument)."
 msgstr ""
+<<<<<<< HEAD
 "Malheureusement, notre sortie d'aide ne donne pas beaucoup de renseignements "
 "sur la nouvelle fonctionnnalité de notre script, mais cela peut être corrigé "
 "simplement en amméliorant la docummentation de notre script (p. ex. via "
@@ -490,12 +552,31 @@ msgstr "Corrigeons cela : ::"
 #: ../Doc/howto/argparse.rst:538
 msgid "And this is what it gives:"
 msgstr "Et voici ce que cela donne :"
+=======
+"Malheureusement, notre sortie d'aide n'est pas très informative à propos des "
+"nouvelles possibilités de notre programme, mais cela peut toujours être "
+"corrigé en améliorant sa documentation. (e.g. en utilisant le l'argument "
+"``help``)."
+
+#: ../Doc/howto/argparse.rst:516
+msgid "That last output exposes a bug in our program."
+msgstr "La dernière sortie du programme montre que celui-ci contient un bogue."
+
+#: ../Doc/howto/argparse.rst:519
+msgid "Let's fix::"
+msgstr "Corrigeons : ::"
+
+#: ../Doc/howto/argparse.rst:538
+msgid "And this is what it gives:"
+msgstr "Et c'est ce que ça donne :"
+>>>>>>> 739c3a9136f05dfc71dc1513b13628821d3f0ce6
 
 #: ../Doc/howto/argparse.rst:553
 msgid ""
 "First output went well, and fixes the bug we had before. That is, we want "
 "any value >= 2 to be as verbose as possible."
 msgstr ""
+<<<<<<< HEAD
 "La première sortie s'est bien déroulée et corrige le bogue croisé "
 "précédement. Nous voulons que n'importe quelle valeur >= 2 soit aussi "
 "verbeuse que possible."
@@ -503,6 +584,15 @@ msgstr ""
 #: ../Doc/howto/argparse.rst:556
 msgid "Third output not so good."
 msgstr "La "
+=======
+"Les premières exécutions du programme sont correctes, et le bogue que nous "
+"avons eu est corrigé. Cela dit, nous voulons que n'importe quelle valeur >= "
+"2 rende le programme aussi verbeux que possible."
+
+#: ../Doc/howto/argparse.rst:556
+msgid "Third output not so good."
+msgstr "La troisième sortie de programme n'est pas si bien que ça."
+>>>>>>> 739c3a9136f05dfc71dc1513b13628821d3f0ce6
 
 #: ../Doc/howto/argparse.rst:558
 msgid "Let's fix that bug::"
@@ -516,11 +606,19 @@ msgid ""
 "value, and that cannot be compared to an int value (hence the :exc:"
 "`TypeError` exception)."
 msgstr ""
+<<<<<<< HEAD
 "Nous venons juste d'introduire un nouveau mot-clé, ``default``. Nous l'avons "
 "initialisé à ``0``  dans le but de pouvoir le comparer à d'autres valeurs de "
 "type int. Souvenez-vous que par défaut, si aucun argument optionnel n'est "
 "spécifié, il prend la valeur ``None``, et il ne peut pas être comparé à une "
 "valeur de type int (d'où l'exception :exc:`TypeError`)."
+=======
+"Nous venons juste d'introduire un nouveau mot clef, ``default``. Nous "
+"l'avons définit à ``0`` pour le rendre comparable aux autres valeurs. "
+"Rappelez-vous que par défaut, si un argument optionnel n'est pas spécifié, "
+"il sera définit à ``None``, et ne pourra pas être comparé à une valeur de "
+"type entier (Une erreur :exc:`TypeError` serait alors levée)."
+>>>>>>> 739c3a9136f05dfc71dc1513b13628821d3f0ce6
 
 #: ../Doc/howto/argparse.rst:582
 msgid "And:"
@@ -532,22 +630,37 @@ msgid ""
 "scratched the surface. The :mod:`argparse` module is very powerful, and "
 "we'll explore a bit more of it before we end this tutorial."
 msgstr ""
+<<<<<<< HEAD
 "Vous pouvez aller assez loin avec ce que nous avons déjà appris, et nous "
 "n'avons fait qu'effleurer le sujet. Le module :mod:`argparse` est très "
 "puissant, et nous allons l'explorer un peu plus avant de terminer ce "
+=======
+"Vous pouvez aller assez loin seulement avec ce que nous avons appris jusqu'à "
+"maintenant, et nous n'avons qu’aperçu la surface. Le module :mod:`argparse` "
+"est très puissant, et nous allons l'explorer un peu plus avant la fin de ce "
+>>>>>>> 739c3a9136f05dfc71dc1513b13628821d3f0ce6
 "tutoriel."
 
 #: ../Doc/howto/argparse.rst:596
 msgid "Getting a little more advanced"
+<<<<<<< HEAD
 msgstr "Pour aller un peu plus loin"
+=======
+msgstr "Aller un peu plus loin"
+>>>>>>> 739c3a9136f05dfc71dc1513b13628821d3f0ce6
 
 #: ../Doc/howto/argparse.rst:598
 msgid ""
 "What if we wanted to expand our tiny program to perform other powers, not "
 "just squares::"
 msgstr ""
+<<<<<<< HEAD
 "Et si nous voulions étendre notre petit programme à d'autres puissances, pas "
 "seulement des carrés : ::"
+=======
+"Qu'en est il si nous souhaitons étendre notre mini programme pour le rendre "
+"capable de calculer d'autres puissances, et pas seulement des carrés : ::"
+>>>>>>> 739c3a9136f05dfc71dc1513b13628821d3f0ce6
 
 #: ../Doc/howto/argparse.rst:615 ../Doc/howto/argparse.rst:653
 msgid "Output:"
@@ -559,6 +672,7 @@ msgid ""
 "that gets displayed. The following example instead uses verbosity level to "
 "display *more* text instead::"
 msgstr ""
+<<<<<<< HEAD
 "Notez que pour l'instant nous avons utilisé le niveau de verbosité pour "
 "*changer* le text affiché. L'exemple suivant utilise le niveau de verbosité "
 "pour afficher *plus* de texte à la place: ::"
@@ -566,6 +680,15 @@ msgstr ""
 #: ../Doc/howto/argparse.rst:667
 msgid "Conflicting options"
 msgstr "Options contradictoires"
+=======
+"Il est à noter que jusqu'à présent nous avons utilisé le niveau de verbosité "
+"pour *changer* le texte qui est affiché. L'exemple suivant au contraire "
+"utilise le niveau de verbosité pour afficher *plus* de texte à la place : ::"
+
+#: ../Doc/howto/argparse.rst:667
+msgid "Conflicting options"
+msgstr "Paramètres en conflit"
+>>>>>>> 739c3a9136f05dfc71dc1513b13628821d3f0ce6
 
 #: ../Doc/howto/argparse.rst:669
 msgid ""
@@ -576,12 +699,21 @@ msgid ""
 "the new functionality makes more sense: we'll introduce the ``--quiet`` "
 "option, which will be the opposite of the ``--verbose`` one::"
 msgstr ""
+<<<<<<< HEAD
 "Jusque là, nous avons travailllé avce deux méthodes d'une instance de :class:"
 "`argparse.ArgumentParser`. En voici une troisième, :meth:"
 "`add_mutually_exclusive_group`. Elle nous permet de spécifier quelle est "
 "option entre en conflit avec quelle autre. Nous allons changer le reste du "
 "programme de telle manière à ce que les nouvelles fonctionnalités aient plus "
 "de sens : introduisons l'option ``-quiet`` qui est l'opposée de ``-"
+=======
+"Jusque là, nous avons travaillé avec deux méthodes d'une instance de :class:"
+"`argparse.ArgumentParser`. En voici une troisième, :meth:"
+"`add_mutually_exclusive_group`. Elle nous permet de spécifier des paramètres "
+"qui sont en conflit entre eux. Changeons aussi le reste du programme de "
+"telle sorte que la nouvelle fonctionnalité fasse sens : nous allons "
+"introduire l'option ``--quiet``, qui va avoir l'effet opposé de l'option ``--"
+>>>>>>> 739c3a9136f05dfc71dc1513b13628821d3f0ce6
 "verbose`` : ::"
 
 #: ../Doc/howto/argparse.rst:695
@@ -589,8 +721,14 @@ msgid ""
 "Our program is now simpler, and we've lost some functionality for the sake "
 "of demonstration. Anyways, here's the output:"
 msgstr ""
+<<<<<<< HEAD
 "Notre programme est maintenant plus simple, et nous avons sacrifié quelques "
 "fonctionnalités pour la demonstration. Qu'importe, voici la sortie :"
+=======
+"Notre programme est maintenant plus simple, et nous avons perdu des "
+"fonctionnalités pour faire cette démonstration. Peu importe, voici la sortie "
+"du programme :"
+>>>>>>> 739c3a9136f05dfc71dc1513b13628821d3f0ce6
 
 #: ../Doc/howto/argparse.rst:713
 msgid ""
@@ -598,17 +736,28 @@ msgid ""
 "the sort of flexibility you get, i.e. mixing long form options with short "
 "form ones."
 msgstr ""
+<<<<<<< HEAD
 "Cela devarit être facile à suivre. J'ai ajouté cette dernière sortie afin "
 "que vous puissiez voir le type de flexibilité obtenue, c'est à dire mixer "
 "les options à formes longues avec celles à formes courtes."
+=======
+"Cela devrait être facile à suivre. J'ai ajouté cette dernière sortie pour "
+"que vous puissiez voir le genre de flexibilité que vous pouvez avoir, i.e. "
+"faire un mixe entre des paramètres courts et longs."
+>>>>>>> 739c3a9136f05dfc71dc1513b13628821d3f0ce6
 
 #: ../Doc/howto/argparse.rst:717
 msgid ""
 "Before we conclude, you probably want to tell your users the main purpose of "
 "your program, just in case they don't know::"
 msgstr ""
+<<<<<<< HEAD
 "Avant de conclure, vous voulez probablement indiquer à vos utilisateurs "
 "l'objectif principal de votre programme, au cas où ils ne le sauraient "
+=======
+"Avant d'en finir, vous voudrez certainement dire à vos utilisateurs quel est "
+"le but principal de votre programme, juste dans le cas ou ils ne savent "
+>>>>>>> 739c3a9136f05dfc71dc1513b13628821d3f0ce6
 "pas : ::"
 
 #: ../Doc/howto/argparse.rst:738
@@ -617,9 +766,15 @@ msgid ""
 "tells us that we can either use ``-v`` or ``-q``, but not both at the same "
 "time:"
 msgstr ""
+<<<<<<< HEAD
 "Notez cette légère différence dans le texte d'usage. Notez ``[-v|-q]``, qui "
 "nous indique que l'on peut utiliser soit ``-v`` soit ``-q``, mais aucunement "
 "les deux en même temps."
+=======
+"Notez cette nuance dans le texte d'utilisation. Les options `[-v | -q]``, "
+"qui nous disent que nous pouvons utiliser au choix ``-v`` ou ``-q``, mais "
+"pas les deux ensemble :"
+>>>>>>> 739c3a9136f05dfc71dc1513b13628821d3f0ce6
 
 #: ../Doc/howto/argparse.rst:760
 msgid "Conclusion"
@@ -631,7 +786,14 @@ msgid ""
 "quite detailed and thorough, and full of examples. Having gone through this "
 "tutorial, you should easily digest them without feeling overwhelmed."
 msgstr ""
+<<<<<<< HEAD
 "Le module :mod:`argparse` a beaucoup plus à offrir que ce qui à été montré "
 "ici. Sa documentation est plutôt approfondie, détaillée et pleine "
 "d'exemples. En ayant suivi ce tutoriel, vous devriez facilement les digérer "
 "sans vous sentir submergé."
+=======
+"Le module :mod:`argparse` offre bien plus que ce qui est montré ici. Sa "
+"documentation est assez détaillée complète et pleine d'exemples. En ayant "
+"accompli ce tutoriel, vous pourriez facilement comprendre cette "
+"documentation sans vous sentir dépassé."
+>>>>>>> 739c3a9136f05dfc71dc1513b13628821d3f0ce6

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-27 19:40+0200\n"
+"POT-Creation-Date: 2018-05-02 00:10+0200\n"
 "PO-Revision-Date: 2017-08-10 00:54+0200\n"
 "Last-Translator: Julien Palard <julien@palard.fr>\n"
 "Language-Team: \n"
@@ -23,7 +23,7 @@ msgstr "Nouveautés de Python 2.2"
 
 #: ../Doc/whatsnew/2.2.rst:0
 msgid "Author"
-msgstr ""
+msgstr "Auteur"
 
 #: ../Doc/whatsnew/2.2.rst:5
 msgid "A.M. Kuchling"
@@ -596,7 +596,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/2.2.rst:535
 msgid ":pep:`234` - Iterators"
-msgstr ":pep:`234` - Itérateurs"
+msgstr ":pep:`234` -- Itérateurs"
 
 #: ../Doc/whatsnew/2.2.rst:535
 msgid ""
@@ -1516,7 +1516,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/2.2.rst:1260
 msgid "Acknowledgements"
-msgstr ""
+msgstr "Remerciements"
 
 #: ../Doc/whatsnew/2.2.rst:1262
 msgid ""

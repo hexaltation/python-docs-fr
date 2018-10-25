@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-27 19:40+0200\n"
+"POT-Creation-Date: 2018-06-10 11:27+0200\n"
 "PO-Revision-Date: 2017-08-10 00:54+0200\n"
 "Last-Translator: Julien Palard <julien@palard.fr>\n"
 "Language-Team: \n"
@@ -23,7 +23,7 @@ msgstr "Nouveautés de Python 2.3"
 
 #: ../Doc/whatsnew/2.3.rst:0
 msgid "Author"
-msgstr ""
+msgstr "Auteur"
 
 #: ../Doc/whatsnew/2.3.rst:5
 msgid "A.M. Kuchling"
@@ -503,7 +503,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/2.3.rst:475 ../Doc/whatsnew/2.3.rst:500
 msgid "This produces the following output::"
-msgstr "Ceci produit l’affichage suivant :"
+msgstr "Ceci produit l’affichage suivant ::"
 
 #: ../Doc/whatsnew/2.3.rst:481
 msgid ""
@@ -632,7 +632,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/2.3.rst:613
 msgid ":pep:`285` - Adding a bool type"
-msgstr ":pep:`285` - Ajout d'un type *bool*"
+msgstr ":pep:`285` -- Ajout d'un type *bool*"
 
 #: ../Doc/whatsnew/2.3.rst:614
 msgid "Written and implemented by GvR."
@@ -697,7 +697,7 @@ msgid ""
 "Running ``python setup.py register`` will collect the metadata describing a "
 "package, such as its name, version, maintainer, description, &c., and send "
 "it to a central catalog server.  The resulting catalog is available from "
-"https://pypi.python.org/pypi."
+"https://pypi.org."
 msgstr ""
 
 #: ../Doc/whatsnew/2.3.rst:664
@@ -839,7 +839,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/2.3.rst:806
 msgid ":pep:`305` - CSV File API"
-msgstr ""
+msgstr ":pep:`305` -- Interface des fichiers CSV"
 
 #: ../Doc/whatsnew/2.3.rst:806
 msgid ""
@@ -2332,7 +2332,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/2.3.rst:2077
 msgid "Acknowledgements"
-msgstr ""
+msgstr "Remerciements"
 
 #: ../Doc/whatsnew/2.3.rst:2079
 msgid ""

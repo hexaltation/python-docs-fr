@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-11 19:00+0200\n"
+"POT-Creation-Date: 2017-10-13 22:28+0200\n"
 "PO-Revision-Date: 2017-08-10 00:54+0200\n"
 "Last-Translator: Julien Palard <julien@palard.fr>\n"
 "Language-Team: \n"
@@ -1460,7 +1460,7 @@ msgstr ""
 
 #: ../Doc/library/turtle.rst:1485
 msgid "For example:"
-msgstr "Par exemple : ::"
+msgstr "Par exemple ::"
 
 #: ../Doc/library/turtle.rst:1495
 msgid "Now add the Shape to the Screen's shapelist and use it:"
@@ -1691,7 +1691,7 @@ msgstr ""
 #: ../Doc/library/turtle.rst:1796 ../Doc/library/turtle.rst:1797
 #: ../Doc/library/turtle.rst:1809 ../Doc/library/turtle.rst:1810
 msgid "string"
-msgstr "string"
+msgstr "*string*"
 
 #: ../Doc/library/turtle.rst:1799
 msgid ""

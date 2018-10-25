@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-27 19:40+0200\n"
+"POT-Creation-Date: 2018-05-02 00:10+0200\n"
 "PO-Revision-Date: 2017-08-10 00:53+0200\n"
 "Last-Translator: Julien Palard <julien@palard.fr>\n"
 "Language-Team: \n"
@@ -23,7 +23,7 @@ msgstr "Nouveautés de Python 2.6"
 
 #: ../Doc/whatsnew/2.6.rst:0
 msgid "Author"
-msgstr ""
+msgstr "Auteur"
 
 #: ../Doc/whatsnew/2.6.rst:9
 msgid "A.M. Kuchling (amk at amk.ca)"
@@ -274,8 +274,7 @@ msgid ""
 msgstr ""
 
 #: ../Doc/whatsnew/2.6.rst:236
-msgid ""
-"`Documenting Python <https://docs.python.org/devguide/documenting.html>`__"
+msgid "`Documenting Python <https://devguide.python.org/documenting/>`__"
 msgstr ""
 
 #: ../Doc/whatsnew/2.6.rst:236
@@ -498,7 +497,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/2.6.rst:431
 msgid "The contextlib module"
-msgstr "Le module contextlib"
+msgstr "Le module *contextlib*"
 
 #: ../Doc/whatsnew/2.6.rst:433
 msgid ""
@@ -602,7 +601,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/2.6.rst:532
 msgid "Unix and Mac OS X: :file:`~/.local/`"
-msgstr "Unix et Mac OS X : :file:`~/.local/`"
+msgstr "UNIX et Mac OS X : :file:`~/.local/`"
 
 #: ../Doc/whatsnew/2.6.rst:533
 msgid "Windows: :file:`%APPDATA%/Python`"
@@ -694,7 +693,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/2.6.rst:642
 msgid "This produces the following output::"
-msgstr "Ceci produit l’affichage suivant :"
+msgstr "Ceci produit l’affichage suivant ::"
 
 #: ../Doc/whatsnew/2.6.rst:651
 msgid ""
@@ -850,7 +849,7 @@ msgid ""
 "Character. Converts the integer to the corresponding Unicode character "
 "before printing."
 msgstr ""
-"Caractère. Convertit l'entier en le caractère unicode associé avant de "
+"Caractère. Convertit l'entier en le caractère Unicode associé avant de "
 "l'afficher."
 
 #: ../Doc/whatsnew/2.6.rst:813
@@ -1423,7 +1422,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/2.6.rst:1303
 msgid ":pep:`3119` - Introducing Abstract Base Classes"
-msgstr ""
+msgstr ":pep:`3119` -- Introduction aux classes de bases abstraites"
 
 #: ../Doc/whatsnew/2.6.rst:1302
 msgid ""
@@ -2969,8 +2968,8 @@ msgstr ""
 msgid ""
 "The XML-RPC :class:`SimpleXMLRPCServer` and :class:`DocXMLRPCServer` classes "
 "can now be prevented from immediately opening and binding to their socket by "
-"passing True as the ``bind_and_activate`` constructor parameter.  This can "
-"be used to modify the instance's :attr:`allow_reuse_address` attribute "
+"passing ``False`` as the *bind_and_activate* constructor parameter.  This "
+"can be used to modify the instance's :attr:`allow_reuse_address` attribute "
 "before calling the :meth:`server_bind` and :meth:`server_activate` methods "
 "to open the socket and begin listening for connections. (Contributed by "
 "Peter Parente; :issue:`1599845`.)"
@@ -3685,7 +3684,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/2.6.rst:3308
 msgid "Acknowledgements"
-msgstr ""
+msgstr "Remerciements"
 
 #: ../Doc/whatsnew/2.6.rst:3310
 msgid ""

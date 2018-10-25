@@ -134,7 +134,7 @@ msgstr ""
 
 #: ../Doc/library/contextlib.rst:121
 msgid "For example::"
-msgstr "Par exemple : ::"
+msgstr "Par exemple ::"
 
 #: ../Doc/library/contextlib.rst:131
 msgid "This code is equivalent to::"
@@ -548,6 +548,8 @@ msgid ""
 "The specification, background, and examples for the Python :keyword:`with` "
 "statement."
 msgstr ""
+"La spécification, les motivations et des exemples de l'instruction :keyword:"
+"`with` en Python."
 
 #: ../Doc/library/contextlib.rst:625
 msgid "Single use, reusable and reentrant context managers"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-10 00:49+0200\n"
+"POT-Creation-Date: 2018-06-17 10:39+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -635,7 +635,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.3.rst:464
 msgid ":pep:`380` - Syntax for Delegating to a Subgenerator"
-msgstr ""
+msgstr ":pep:`380` -- Syntaxe pour déléguer à un sous-générateur"
 
 #: ../Doc/whatsnew/3.3.rst:463
 msgid ""
@@ -1231,7 +1231,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.3.rst:933
 msgid "array"
-msgstr "array"
+msgstr "*array*"
 
 #: ../Doc/whatsnew/3.3.rst:935
 msgid ""
@@ -1982,7 +1982,7 @@ msgid ""
 "writes them all at once when :meth:`~http.server.BaseHTTPRequestHandler."
 "end_headers` is called.  A new method :meth:`~http.server."
 "BaseHTTPRequestHandler.flush_headers` can be used to directly manage when "
-"the accumlated headers are sent. (Contributed by Andrew Schaaf in :issue:"
+"the accumulated headers are sent. (Contributed by Andrew Schaaf in :issue:"
 "`3709`.)"
 msgstr ""
 
@@ -3558,7 +3558,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.3.rst:2327
 msgid "Deprecated features"
-msgstr "Fonctionnalités dépréciées"
+msgstr "Fonctionnalités obsolètes"
 
 #: ../Doc/whatsnew/3.3.rst:2329
 msgid ""
@@ -3800,7 +3800,7 @@ msgid ""
 msgstr ""
 
 #: ../Doc/whatsnew/3.3.rst:2483
-msgid ":c:func:`PyImport_GetMagicNumber` now returns -1 upon failure."
+msgid ":c:func:`PyImport_GetMagicNumber` now returns ``-1`` upon failure."
 msgstr ""
 
 #: ../Doc/whatsnew/3.3.rst:2485
@@ -3808,7 +3808,7 @@ msgid ""
 "As a negative value for the *level* argument to :func:`__import__` is no "
 "longer valid, the same now holds for :c:func:`PyImport_ImportModuleLevel`. "
 "This also means that the value of *level* used by :c:func:"
-"`PyImport_ImportModuleEx` is now 0 instead of -1."
+"`PyImport_ImportModuleEx` is now ``0`` instead of ``-1``."
 msgstr ""
 
 #: ../Doc/whatsnew/3.3.rst:2492

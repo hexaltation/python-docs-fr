@@ -7,8 +7,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-10 00:49+0200\n"
-"PO-Revision-Date: 2017-08-18 13:54+0200\n"
+"POT-Creation-Date: 2018-06-10 11:27+0200\n"
+"PO-Revision-Date: 2018-06-10 15:33+0200\n"
+"Last-Translator: Julien Palard <julien@palard.fr>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +21,7 @@ msgstr ""
 
 #: ../Doc/installing/index.rst:7
 msgid "Installing Python Modules"
-msgstr "L'installation de modules Python"
+msgstr "Installation de modules Python"
 
 #: ../Doc/installing/index.rst:0
 msgid "Email"
@@ -35,7 +37,7 @@ msgid ""
 "supporting community of contributors and users that also make their software "
 "available for other Python developers to use under open source license terms."
 msgstr ""
-"En temps que logiciel libre populaire, Python bénéficie d'une communauté "
+"En tant que logiciel libre populaire, Python bénéficie d'une communauté "
 "active de contributeurs et d'utilisateurs qui rendent à leur tour leurs "
 "logiciels disponibles, sous licence libre, pour les autres développeurs "
 "Python."
@@ -71,7 +73,7 @@ msgid ""
 msgstr ""
 "Pour les entreprises et autres institutions, gardez en tête que certaines "
 "organisations ont leur propres règles sur l'utilisation et la contribution "
-"au logiciel libre. Prennez ces règles en compte lorsque vous utilisez les "
+"au logiciel libre. Prenez ces règles en compte lorsque vous utilisez les "
 "outils de distribution et d'installation fournis par Python."
 
 #: ../Doc/installing/index.rst:33
@@ -120,13 +122,11 @@ msgstr ""
 
 #: ../Doc/installing/index.rst:47
 msgid ""
-"The `Python Packaging Index <https://pypi.python.org/pypi>`__ is a public "
-"repository of open source licensed packages made available for use by other "
-"Python users."
+"The `Python Packaging Index <https://pypi.org>`__ is a public repository of "
+"open source licensed packages made available for use by other Python users."
 msgstr ""
-"L'`Index des Paquets Python <https://pypi.python.org/pypi>`__ est un dépôt "
-"public des paquets sous licence ouverte disponibles pour tous les "
-"utilisateurs Python."
+"L'`Index des Paquets Python <https://pypi.org>`__ est un dépôt public des "
+"paquets sous licence ouverte disponibles pour tous les utilisateurs Python."
 
 #: ../Doc/installing/index.rst:50
 msgid ""
@@ -169,7 +169,7 @@ msgid ""
 "org/dev/whatsnew/3.6.html#deprecated-features>`_."
 msgstr ""
 "``pyvenv`` était l'outil recommandé pour créer des environnements sous "
-"Python 3.3 et 3.4, et est `déprécié depuis Python 3.6 <https://docs.python."
+"Python 3.3 et 3.4, et est `obsolète depuis Python 3.6 <https://docs.python."
 "org/dev/whatsnew/3.6.html#deprecated-features>`_."
 
 #: ../Doc/installing/index.rst:70
@@ -206,7 +206,7 @@ msgid ""
 "dependencies from the Python Packaging Index::"
 msgstr ""
 "La commande suivante va installer la dernière version d'un module et ses "
-"dépendances depuis le *Python Package Index* ::"
+"dépendances depuis le *Python Package Index* ::"
 
 #: ../Doc/installing/index.rst:92
 msgid ""
@@ -222,7 +222,7 @@ msgid ""
 "adjust the system PATH environment variable was selected when installing "
 "Python."
 msgstr ""
-"Pour les utilisateurs de Windows, les exemples de ce quide supposent que "
+"Pour les utilisateurs de Windows, les exemples de ce guide supposent que "
 "l'option proposant de modifier la variable d'environnement PATH à été cochée "
 "lors de l'installation de Python."
 
@@ -236,7 +236,7 @@ msgstr ""
 "Il est aussi possible de préciser une version minimum exacte directement "
 "depuis la ligne de commande. Utiliser des caractères de comparaison tel que "
 "``>``, ``<`` ou d'autres caractères spéciaux qui sont interprétés par le "
-"shell, le nom du paquet et la version doivent être mis entre guillemets::"
+"*shell*, le nom du paquet et la version doivent être mis entre guillemets ::"
 
 #: ../Doc/installing/index.rst:107
 msgid ""
@@ -375,7 +375,7 @@ msgid ""
 "switch::"
 msgstr ""
 "Sous Windows, utilisez le lanceur Python ``py`` en combinaison avec l'option "
-"``-m`` ::"
+"``-m`` ::"
 
 #: ../Doc/installing/index.rst:199
 msgid "Common installation issues"
@@ -418,8 +418,13 @@ msgid ""
 "It is possible that ``pip`` does not get installed by default. One potential "
 "fix is::"
 msgstr ""
+<<<<<<< HEAD
 "Il est possible que ``pip`` ne soit pas intallé par défaut. Une remédiation "
 "possible est: ::"
+=======
+"Il est possible que ``pip`` ne soit pas installé par défaut. Une solution "
+"est : ::"
+>>>>>>> 739c3a9136f05dfc71dc1513b13628821d3f0ce6
 
 #: ../Doc/installing/index.rst:221
 msgid ""
@@ -427,9 +432,14 @@ msgid ""
 "python.org/tutorials/installing-packages/#install-pip-setuptools-and-"
 "wheel>`__"
 msgstr ""
+<<<<<<< HEAD
 "Il y a des ressources additionnelles pour `installer pip. <https://packaging."
 "python.org/tutorials/installing-packages/#install-pip-setuptools-and-"
 "wheel>`__"
+=======
+"Voir aussi `installing pip. <https://packaging.python.org/tutorials/"
+"installing-packages/#install-pip-setuptools-and-wheel>`__"
+>>>>>>> 739c3a9136f05dfc71dc1513b13628821d3f0ce6
 
 #: ../Doc/installing/index.rst:226
 msgid "Installing binary extensions"

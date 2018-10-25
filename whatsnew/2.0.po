@@ -3,19 +3,19 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-10 00:49+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2018-05-02 00:10+0200\n"
+"PO-Revision-Date: 2017-09-22 10:11+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
 
 #: ../Doc/whatsnew/2.0.rst:3
 msgid "What's New in Python 2.0"
@@ -23,7 +23,7 @@ msgstr "Nouveautés de Python 2.0"
 
 #: ../Doc/whatsnew/2.0.rst:0
 msgid "Author"
-msgstr ""
+msgstr "Auteur"
 
 #: ../Doc/whatsnew/2.0.rst:5
 msgid "A.M. Kuchling and Moshe Zadka"
@@ -59,7 +59,7 @@ msgstr ""
 "Le développement de Python n'a jamais complètement été arrêté entre chaque "
 "versions, et un flux constant de corrections de bogues et d'améliorations "
 "ont toujours été soumis. Une foule de corrections mineures, quelques "
-"optimisations, des docstrings supplémentaires, et de meilleurs messages "
+"optimisations, des *docstrings* supplémentaires, et de meilleurs messages "
 "d'erreur sont apparus avec l'arrivée de la version 2.0; tous les énumérer "
 "serait impossible, mais ils sont certainement significatif. Consultez les "
 "journaux CVS publics disponibles pour obtenir la liste complète. Ce progrès "
@@ -104,14 +104,14 @@ msgid ""
 "only in 2.0, because a lot of work was done between May and September."
 msgstr ""
 "Alors, devriez-vous vous intéresser à Python 1.6 ? Probablement pas. Les "
-"versions 1.6final et 2.0beta1 sont sorties le même jour (5 septembre 2000), "
-"le plan étant de finaliser Python 2.0 environ un mois plus tard. Si vous "
-"avez des applications à maintenir, il n’y a pas vraiment d’intérêt à casser "
-"des choses en migrant sur la version 1.6, les réparer, puis avoir de nouveau "
-"des choses cassées à peine un mois plus tard en passant à la 2.0; il vaut "
-"mieux partir directement de la 2.0. La plupart des fonctionnalités vraiment "
-"intéressantes décrites dans ce document sont seulement dans la 2.0, parce "
-"que beaucoup de travail a été réalisé entre mai et septembre."
+"versions *1.6final* et *2.0beta1* sont sorties le même jour (5 septembre "
+"2000), le plan étant de finaliser Python 2.0 environ un mois plus tard. Si "
+"vous avez des applications à maintenir, il n’y a pas vraiment d’intérêt à "
+"casser des choses en migrant sur la version 1.6, les réparer, puis avoir de "
+"nouveau des choses cassées à peine un mois plus tard en passant à la 2.0; il "
+"vaut mieux partir directement de la 2.0. La plupart des fonctionnalités "
+"vraiment intéressantes décrites dans ce document sont seulement dans la 2.0, "
+"parce que beaucoup de travail a été réalisé entre mai et septembre."
 
 #: ../Doc/whatsnew/2.0.rst:57
 msgid "New Development Process"
@@ -282,7 +282,7 @@ msgid ""
 "``unichr(ch)`` returns a Unicode string 1 character long, containing the "
 "character *ch*."
 msgstr ""
-"``unichr(ch)`` retourne une chaîne Unicode de longueur 1, contenant le "
+"``unichr(ch)`` renvoie une chaîne Unicode de longueur 1, contenant le "
 "caractère *ch*."
 
 #: ../Doc/whatsnew/2.0.rst:181
@@ -291,7 +291,7 @@ msgid ""
 "the number of the character as an integer."
 msgstr ""
 "``ord(u)``, quand *u* est une chaîne normale ou Unicode de longueur 1, "
-"retourne un entier représentant le nombre de caractères."
+"renvoie un entier représentant le nombre de caractères."
 
 #: ../Doc/whatsnew/2.0.rst:184
 msgid ""
@@ -1546,7 +1546,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/2.0.rst:1199
 msgid "Acknowledgements"
-msgstr ""
+msgstr "Remerciements"
 
 #: ../Doc/whatsnew/2.0.rst:1201
 msgid ""

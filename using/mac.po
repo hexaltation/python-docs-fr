@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-10 00:49+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"POT-Creation-Date: 2017-10-13 22:28+0200\n"
+"PO-Revision-Date: 2018-02-15 01:00+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -23,7 +23,7 @@ msgstr "Utilisation de Python sur un Macintosh"
 
 #: ../Doc/using/mac.rst:0
 msgid "Author"
-msgstr ""
+msgstr "Auteur"
 
 #: ../Doc/using/mac.rst:8
 msgid "Bob Savage <bobsavage@mac.com>"
@@ -37,8 +37,8 @@ msgid ""
 msgstr ""
 "Python sur un Macintosh exécutant Mac OS X est en principe très similaire à "
 "Python sur n'importe quelle autre plateforme Unix, mais il y a un certain "
-"nombre defonctionnalités additionnelle telle que l'IDE et le gestionnaire de "
-"packages qui méritent d'être soulignées."
+"nombre de fonctionnalités additionnelle telle que l'IDE et le gestionnaire "
+"de packages qui méritent d'être soulignées."
 
 #: ../Doc/using/mac.rst:18
 msgid "Getting and Installing MacPython"
@@ -54,7 +54,7 @@ msgid ""
 msgstr ""
 "Mac OS X 10.8 contient déjà Python 2.7 pré-installé par Apple. Si vous le "
 "souhaitez,vous êtes invités à installer la version la plus récente de Python "
-"3 à partir dusite de Python (https://www.python.org). Une version \"binaire "
+"3 à partir du site de Python (https://www.python.org). Une version \"binaire "
 "universelle\" de Python, qui s'exécute nativement sur les nouveaux "
 "processeurs Intel de Macet les processeurs PPC, CPUs hérités de Mac, y est "
 "disponible."
@@ -278,7 +278,7 @@ msgstr ""
 
 #: ../Doc/using/mac.rst:173
 msgid "Other Resources"
-msgstr "Autres Ressources"
+msgstr "Autres ressources"
 
 #: ../Doc/using/mac.rst:175
 msgid ""

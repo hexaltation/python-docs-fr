@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-27 19:40+0200\n"
+"POT-Creation-Date: 2018-06-10 11:27+0200\n"
 "PO-Revision-Date: 2017-08-10 00:53+0200\n"
 "Last-Translator: Julien Palard <julien@palard.fr>\n"
 "Language-Team: \n"
@@ -23,7 +23,7 @@ msgstr "Nouveautés de Python 2.5"
 
 #: ../Doc/whatsnew/2.5.rst:0
 msgid "Author"
-msgstr ""
+msgstr "Auteur"
 
 #: ../Doc/whatsnew/2.5.rst:5
 msgid "A.M. Kuchling"
@@ -167,7 +167,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/2.5.rst:123
 msgid ":pep:`308` - Conditional Expressions"
-msgstr ":pep:`308` - Expressions conditionnelles"
+msgstr ":pep:`308` -- Expressions conditionnelles"
 
 #: ../Doc/whatsnew/2.5.rst:123
 msgid ""
@@ -234,7 +234,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/2.5.rst:201
 msgid ":pep:`309` - Partial Function Application"
-msgstr ":pep:`309` - Application partielle de fonction"
+msgstr ":pep:`309` -- Application partielle de fonction"
 
 #: ../Doc/whatsnew/2.5.rst:201
 msgid ""
@@ -265,9 +265,9 @@ msgstr ""
 
 #: ../Doc/whatsnew/2.5.rst:231
 msgid ""
-"Another new enhancement to the Python package index at https://pypi.python."
-"org is storing source and binary archives for a package.  The new :command:"
-"`upload` Distutils command will upload a package to the repository."
+"Another new enhancement to the Python package index at https://pypi.org is "
+"storing source and binary archives for a package.  The new :command:`upload` "
+"Distutils command will upload a package to the repository."
 msgstr ""
 
 #: ../Doc/whatsnew/2.5.rst:236
@@ -633,7 +633,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/2.5.rst:548
 msgid ":pep:`342` - Coroutines via Enhanced Generators"
-msgstr ""
+msgstr ":pep:`342` -- Coroutines *via* des générateurs améliorés"
 
 #: ../Doc/whatsnew/2.5.rst:544
 msgid ""
@@ -862,7 +862,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/2.5.rst:742
 msgid "The contextlib module"
-msgstr "Le module contextlib"
+msgstr "Le module *contextlib*"
 
 #: ../Doc/whatsnew/2.5.rst:744
 msgid ""
@@ -2717,7 +2717,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/2.5.rst:2280
 msgid "Acknowledgements"
-msgstr ""
+msgstr "Remerciements"
 
 #: ../Doc/whatsnew/2.5.rst:2282
 msgid ""

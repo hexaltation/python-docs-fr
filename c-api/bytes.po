@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-02 22:11+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2018-02-15 00:30+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../Doc/c-api/bytes.rst:6
 msgid "Bytes Objects"
-msgstr "Objets *Bytes*"
+msgstr "Objets *bytes*"
 
 #: ../Doc/c-api/bytes.rst:8
 msgid ""
@@ -104,7 +104,7 @@ msgstr ""
 #: ../Doc/c-api/bytes.rst:72 ../Doc/c-api/bytes.rst:75
 #: ../Doc/c-api/bytes.rst:93 ../Doc/c-api/bytes.rst:96
 msgid "int"
-msgstr "int"
+msgstr "*int*"
 
 #: ../Doc/c-api/bytes.rst:72
 msgid "A single byte, represented as a C int."
@@ -124,7 +124,7 @@ msgstr ""
 
 #: ../Doc/c-api/bytes.rst:78
 msgid "unsigned int"
-msgstr "unsigned int"
+msgstr "``unsigned int``"
 
 #: ../Doc/c-api/bytes.rst:78
 msgid "Exactly equivalent to ``printf(\"%u\")``."
@@ -148,7 +148,7 @@ msgstr ""
 
 #: ../Doc/c-api/bytes.rst:84
 msgid "unsigned long"
-msgstr "unsigned long"
+msgstr "``unsigned long``"
 
 #: ../Doc/c-api/bytes.rst:84
 msgid "Exactly equivalent to ``printf(\"%lu\")``."

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-10 00:49+0200\n"
+"POT-Creation-Date: 2018-05-02 00:10+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,11 +23,11 @@ msgstr "Nouveautés de Python 3.1"
 
 #: ../Doc/whatsnew/3.1.rst:0
 msgid "Author"
-msgstr ""
+msgstr "Auteur"
 
 #: ../Doc/whatsnew/3.1.rst:5
 msgid "Raymond Hettinger"
-msgstr ""
+msgstr "Raymond Hettinger"
 
 #: ../Doc/whatsnew/3.1.rst:49
 msgid "This article explains the new features in Python 3.1, compared to 3.0."
@@ -358,7 +358,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.1.rst:315
 msgid "(Contributed by Vinay Sajip; :issue:`4384`)."
-msgstr "(Contribution par Vinay Sajip; :issue:`4384`.)"
+msgstr "(Contribution par Vinay Sajip ; :issue:`4384`)."
 
 #: ../Doc/whatsnew/3.1.rst:317
 msgid ""
@@ -510,7 +510,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.1.rst:427
 msgid "(Contributed by Amaury Forgeot d'Arc and Antoine Pitrou.)"
-msgstr "(Contribution par Amaury Forgeot d'Arc and Antoine Pitrou)"
+msgstr "(Contribution par Amaury Forgeot d'Arc et Antoine Pitrou)"
 
 #: ../Doc/whatsnew/3.1.rst:429
 msgid ""
@@ -538,7 +538,7 @@ msgid ""
 "issue:`4753`)."
 msgstr ""
 "(Contribution par Antoine Pitrou ainsi qu’un certain nombre d’autres "
-"participants; :issue:`4753`.)"
+"participants ; :issue:`4753`)."
 
 #: ../Doc/whatsnew/3.1.rst:445
 msgid ""

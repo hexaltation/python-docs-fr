@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-10 00:49+0200\n"
+"POT-Creation-Date: 2018-05-02 00:10+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,11 +23,11 @@ msgstr "Nouveautés de Python 3.2"
 
 #: ../Doc/whatsnew/3.2.rst:0
 msgid "Author"
-msgstr ""
+msgstr "Auteur"
 
 #: ../Doc/whatsnew/3.2.rst:5
 msgid "Raymond Hettinger"
-msgstr ""
+msgstr "Raymond Hettinger"
 
 #: ../Doc/whatsnew/3.2.rst:51
 msgid ""
@@ -485,7 +485,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.2.rst:493
 msgid "(Contributed by Marcin Wojdyr in :issue:`1772833`)."
-msgstr "(Contribution par Marcin Wojdyr; :issue:`1772833`)"
+msgstr "(Contribution par Marcin Wojdyr; :issue:`1772833`)."
 
 #: ../Doc/whatsnew/3.2.rst:495
 msgid ""
@@ -2540,7 +2540,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.2.rst:2306
 msgid "Multi-threading"
-msgstr "Threads"
+msgstr "Fils d'exécution"
 
 #: ../Doc/whatsnew/3.2.rst:2308
 msgid ""
